@@ -35,15 +35,15 @@ def get_credentials():
     """
     github_photo = "data/logos/Github-logo.png"
     clg_logo = "data/vesit_logo.png"
-    github = "github.com/italoPontes/Steganography"
-    github_url = "https://github.com/italoPontes/Steganography/"
+    github = "github.com/Nihar-Walawalkar/img-steganography"
+    github_url = "https://github.com/Nihar-Walawalkar/img-steganography/"
 
     st.sidebar.markdown("")
     st.sidebar.image(clg_logo)
     st.sidebar.markdown("Developed by:")
     st.sidebar.markdown("Nihar Walawalkar & Kushal Yadav")
     st.sidebar.markdown(
-        """<a href="https://github.com/italoPontes/Steganography/">
+        """<a href="https://github.com/Nihar-Walawalkar/img-steganography/">
         <img src="data:image/png;base64,{}" width="100">
         </a>""".format(
             base64.b64encode(open(github_photo, "rb").read()).decode()
